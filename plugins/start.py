@@ -61,7 +61,7 @@ async def start(client: Client, message: Message):
              # Fallback: If username (starts with @ or no -100), construct link. If ID, we can't guess.
              if str(Config.FORCE_SUB_CHANNEL).startswith("-100"):
                  
-                 invite_link = "https://t.me/cantarellabots" # Fallback to updates channel if specific fail
+                 invite_link = "https://t.me/CARTOONFUNNY04" # Fallback to updates channel if specific fail
              else:
                  invite_link = f"https://t.me/{Config.FORCE_SUB_CHANNEL.replace('@', '')}"
         
@@ -84,8 +84,8 @@ async def start(client: Client, message: Message):
 
     btn = [
         [
-            InlineKeyboardButton("📢 Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/cantarellabots"),
-            InlineKeyboardButton("👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/akaza7902")
+            InlineKeyboardButton("📢 Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/CARTOONFUNNY04"),
+            InlineKeyboardButton("👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/skanime04")
         ],
         [
             InlineKeyboardButton("➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ", url=f"https://t.me/{client.me.username}?startgroup=true")
