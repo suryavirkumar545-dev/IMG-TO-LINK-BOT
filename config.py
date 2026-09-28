@@ -16,7 +16,7 @@ class Config:
     ADMINS = [int(x) for x in ADMIN_STR.split()] if ADMIN_STR else []
     
     # Channel
-    FORCE_SUB_CHANNEL = os.getenv("FORCE_SUB_CHANNEL", "") # username or ID
+    FORCE_SUB_CHANNEL = os.getenv("FORCE_SUB_CHANNEL", "-1002425134828") # username or ID
     
     # UI
     START_PIC = os.getenv("START_PIC", "https://ibb.co/XZZhqDs0") # Default image
